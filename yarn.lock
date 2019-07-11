@@ -4553,6 +4553,13 @@ gatsby-plugin-react-helmet@^3.1.0:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+gatsby-plugin-redirects@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-redirects/-/gatsby-plugin-redirects-1.0.0.tgz#c8d1d944245d6a9de92df9480bff5a2922823a19"
+  integrity sha512-FB3pIqAfE4sD86DKndHuildhJaNJllzu2n1yJYjRpSImv8Ln1f7JH/HWoxYbNMj1n/r+Ktu8zh0TsulyaqvyOg==
+  dependencies:
+    gatsby-plugin-meta-redirect "^1.1.1"
+
 gatsby-plugin-theme-ui@^0.2.6:
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.2.6.tgz#b153a3897e03fa5d4c5e33d04db822d57790a39e"
@@ -4611,9 +4618,9 @@ gatsby-telemetry@^1.1.4:
     uuid "3.3.2"
 
 gatsby-theme-documentation@*:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-documentation/-/gatsby-theme-documentation-0.0.13.tgz#b974c27d21603e1fa7a9514471ba8495538f7496"
-  integrity sha512-3fY+TpOFxfvb1sF+gzoQJcHbDMREX5Ck+R72Gzdy20Jk+vjsu/+gPkKw8G3NrXCyOqnuzqz0YOigHXJk4qWyuw==
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-documentation/-/gatsby-theme-documentation-0.0.14.tgz#937fddd1935b73d09735fce23e6c676ea33c0d91"
+  integrity sha512-DHgW6K8XwlpbtllU/xrHfRgAz/Ex9qBZ/dwjSP1akfOA2xfYx97BR9+iCdzJQiSVaAaq9OOmX08dHe+ZzVlUeQ==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@mdx-js/mdx" "^1.0.21"
@@ -4624,6 +4631,7 @@ gatsby-theme-documentation@*:
     gatsby-plugin-mdx "^1.0.7"
     gatsby-plugin-meta-redirect "^1.1.1"
     gatsby-plugin-react-helmet "^3.1.0"
+    gatsby-plugin-redirects "^1.0.0"
     gatsby-plugin-theme-ui "^0.2.6"
     gatsby-source-filesystem "^2.1.2"
     is-absolute-url "^3.0.0"
